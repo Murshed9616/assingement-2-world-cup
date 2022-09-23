@@ -1,3 +1,88 @@
-body {
-    background: red;
+* {
+    margin: 0px;
+    padding: 0px;
 }
+
+:root {
+    --primary-font: 'Poppins', sans-serif;
+}
+
+
+/* <!-------------------------------------
+    header section start 
+--------------------------------------> */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 40px;
+    height: 730px;
+    margin: 60px 150px 0px 150px;
+    margin-top: 60px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    border-radius: 35px;
+
+}
+
+.header-descrition {
+    width: 50%;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-headline {
+    color: white;
+    font-size: 90px;
+    font-family: var(--primary-font);
+    line-height: 1.2;
+}
+
+.header-paragrap {
+    color: lightgrey;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.header-button {
+    background-color: tomato;
+    width: 220px;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    /* justify-items: center; */
+}
+
+.fa-solid {
+    color: white;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.header-button button {
+    background-color: tomato;
+    border: none;
+    font-size: 25px;
+    color: white;
+    font-family: var(--primary-font);
+}
+
+.header-images {
+    width: 50%;
+}
+
+.image {
+    width: 700px;
+    height: 770px;
+
+}
+
+/* <!-------------------------------------
+    header section end 
+--------------------------------------> */
