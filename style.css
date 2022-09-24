@@ -49,7 +49,7 @@
 }
 
 .header-button {
-    background-color: tomato;
+    background-color: red;
     width: 220px;
     height: 70px;
     border-radius: 5px;
@@ -66,7 +66,7 @@
 }
 
 .header-button button {
-    background-color: tomato;
+    background-color: red;
     border: none;
     font-size: 25px;
     color: white;
@@ -86,3 +86,148 @@
 /* <!-------------------------------------
     header section end 
 --------------------------------------> */
+
+/* <!-------------------------------------
+    body first-container start 
+    --------------------------------------> */
+.first-container {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.update {
+    width: 380px;
+    height: 380px;
+    margin-top: 150px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.update-box {
+    padding-top: .5px;
+
+}
+
+.upcoming-match-box,
+.all-group-box,
+.blog-box {
+    width: 280px;
+    height: 70px;
+    background-color: white;
+    font-size: 25px;
+    font-family: var(--primary-font);
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 45px;
+}
+
+.upcoming-match,
+.all-group,
+.blog {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.blog {
+    color: white
+}
+
+.blog-box {
+    background-color: red
+}
+
+.box {
+    width: 380px;
+    height: 450px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-bottom: 28px;
+
+}
+
+.box-image {
+    width: 380px;
+    height: 220px;
+}
+
+.box-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.box-info button {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    width: 105px;
+    height: 33px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.box-paragarap {
+    font-family: var(--primary-font);
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.clock-massage {
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+
+.clock {
+    display: flex;
+    margin-right: 35px;
+}
+
+.clock p {
+    margin-left: 12px;
+}
+
+.massage {
+    display: flex;
+}
+
+.massage p {
+    margin-left: 12px;
+}
+
+/* <!-------------------------------------
+    body first-container start 
+    --------------------------------------> */
+
+/* <!-------------------------------------
+    body second-container start 
+    --------------------------------------> */
+.second-container {
+    margin-left: 555px;
+    margin-right: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.six-box {
+    /* margin-top: 30px; */
+    width: 380px;
+    height: 450px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    margin-bottom: 0px;
+}
+
+/* <!-------------------------------------
+    body second-container end 
+    --------------------------------------> */
