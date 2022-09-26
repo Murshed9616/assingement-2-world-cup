@@ -19,7 +19,7 @@
     padding: 40px;
     height: 730px;
     margin: 60px 150px 0px 150px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     /* margin-left: 150px;
     margin-right: 150px; */
     border-radius: 35px;
@@ -28,16 +28,17 @@
 
 .header-descrition {
     width: 50%;
-    padding-top: 80px;
+    padding-top: 85px;
     padding-left: 100px;
     padding-right: 100px;
 }
 
 .header-headline {
     color: white;
-    font-size: 90px;
+    font-size: 80px;
     font-family: var(--primary-font);
     line-height: 1.2;
+    margin-bottom: 20px;
 }
 
 .header-paragrap {
@@ -45,7 +46,15 @@
     font-size: 20px;
     font-family: var(--primary-font);
     padding-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+}
+
+.header-paragrap-2 {
+    color: lightgrey;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    padding-top: 20px;
+    margin-bottom: 60px;
 }
 
 .header-button {
@@ -56,7 +65,6 @@
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    /* justify-items: center; */
 }
 
 .fa-solid {
@@ -75,6 +83,7 @@
 
 .header-images {
     width: 50%;
+
 }
 
 .image {
@@ -144,17 +153,18 @@
 }
 
 .box {
-    width: 380px;
+    width: 360px;
     height: 450px;
     border: 1px solid lightgrey;
     border-radius: 15px;
     margin-top: 150px;
     margin-bottom: 28px;
+    margin-left: 28px;
 
 }
 
 .box-image {
-    width: 380px;
+    width: 360px;
     height: 220px;
 }
 
@@ -212,7 +222,7 @@
     body second-container start 
     --------------------------------------> */
 .second-container {
-    margin-left: 555px;
+    margin-left: 560px;
     margin-right: 150px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -221,7 +231,7 @@
 
 .six-box {
     /* margin-top: 30px; */
-    width: 380px;
+    width: 360px;
     height: 450px;
     border: 1px solid lightgrey;
     border-radius: 15px;
@@ -273,3 +283,246 @@
 /* <!-----------------------
     footer container end 
     ----------------------> */
+
+
+
+/* -------------------
+     mobile divice screen start
+     ------------------- */
+
+
+@media only screen and (max-width: 688px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .header-container {
+        background-color: black;
+        width: 80%;
+        height: 600px;
+        margin: 45px 30px 0px 30px;
+        border-radius: 10px;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+
+    }
+
+    .header-descrition {
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-headline {
+        font-size: 35px;
+        padding-left: 90px;
+        padding-right: 90px;
+        margin-bottom: 0px;
+        padding-bottom: 8px;
+    }
+
+    .header-paragrap {
+        display: none;
+    }
+
+    .header-paragrap-2 {
+        color: rgb(9, 131, 131);
+        padding-top: 7px;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-bottom: 25px;
+
+    }
+
+    .abu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-button {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 200px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .fa-solid {
+        margin-top: 16px;
+
+    }
+
+    .header-images {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 48px;
+
+    }
+
+    .image {
+        height: 338px;
+        width: 65%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-container {
+        width: 90%;
+        margin-left: 30px;
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .update {
+        width: 100%;
+        height: 280px;
+        margin-top: 20px;
+        border-radius: 20px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .upcoming-match-box,
+    .all-group-box,
+    .blog-box {
+        border: 1px solid gray;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+
+    .box {
+        width: 100%;
+        height: 500px;
+        margin-left: 0px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .box-image {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .box-info button {
+        font-size: 22px;
+        width: 115px;
+        height: 38px;
+    }
+
+    .box-paragarap {
+        font-size: 20px;
+        margin-top: 20px;
+
+
+    }
+
+    .second-container {
+        width: 90%;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .six-box {
+        width: 100%;
+        height: 500px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+
+    .footer-container {
+        height: 430px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-headline {
+        padding-top: 15px;
+
+    }
+
+    .line {
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .footer-info {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }
+
+    .footer-info h3 {
+        margin-bottom: 20px;
+    }
+}
+
+/* -------------------
+     mobile divice screen end
+     ------------------- */
+
+
+
+
+@media only screen and (min-width:1024px) {
+    .header-paragrap-2 {
+        display: none;
+    }
+}
+
+
+
+
+
+/*-------------------
+     tablet divice 
+     -------------------*/
+/* 
+@media only screen and (min-width: 601px) and (max-width:1024px) {
+    .header-container {
+        background-color: blueviolet;
+    }
+       
+    .header-descrition {
+        padding-top: 20px;
+        padding-right: 30px;
+    }
+
+    .header-headline {
+        font-size: 50px;
+
+    }
+
+    .image {
+        width: 410px;
+        height: 485px;
+
+    }
+} 
+
+ */
